@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass Grenadier_UIData.Grenadier_UIData_C
+// Size: 0x2d8 (Inherited: 0x2d8)
+struct UGrenadier_UIData_C : UCharacterUIData {
+};
+

@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass StorefrontItem_CNWelcomeThemeBundle_DataAsset.StorefrontItem_CNWelcomeThemeBundle_DataAsset_C
+// Size: 0xb0 (Inherited: 0xb0)
+struct UStorefrontItem_CNWelcomeThemeBundle_DataAsset_C : UStorefrontItemDataAsset {
+};
+

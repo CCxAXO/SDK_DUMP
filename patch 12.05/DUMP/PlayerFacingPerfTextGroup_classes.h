@@ -1,0 +1,65 @@
+// WidgetBlueprintGeneratedClass PlayerFacingPerfTextGroup.PlayerFacingPerfTextGroup_C
+// Size: 0x4b8 (Inherited: 0x318)
+struct UPlayerFacingPerfTextGroup_C : UUserWidget {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x318(0x08)
+	struct UPlayerFacingPerfText_C* IncomingPacketSizeAvg+Max; // 0x320(0x08)
+	struct UInvalidationBox* InvalidationBox_PlayerFacingTextGroup; // 0x328(0x08)
+	struct UPlayerFacingPerfText_C* OutgoingPacketSizeAvg+Max; // 0x330(0x08)
+	struct UPlayerFacingPerfText_C* TextATB; // 0x338(0x08)
+	struct UPlayerFacingPerfText_C* TextAvailablePhysicalMemory; // 0x340(0x08)
+	struct UGridPanel* TextBoxGrid; // 0x348(0x08)
+	struct UPlayerFacingPerfText_C* TextBytesDownloaded; // 0x350(0x08)
+	struct UPlayerFacingPerfText_C* TextBytesTransferredTotal; // 0x358(0x08)
+	struct UPlayerFacingPerfText_C* TextBytesUploaded; // 0x360(0x08)
+	struct UPlayerFacingPerfText_C* TextClientFPS; // 0x368(0x08)
+	struct UPlayerFacingPerfText_C* TextEquippableCorrections; // 0x370(0x08)
+	struct UPlayerFacingPerfText_C* TextForwardPredictedFrames; // 0x378(0x08)
+	struct UPlayerFacingPerfText_C* TextFrameCount; // 0x380(0x08)
+	struct UPlayerFacingPerfText_C* TextFullEndtoEndLatency; // 0x388(0x08)
+	struct UPlayerFacingPerfText_C* TextGameFrameTime; // 0x390(0x08)
+	struct UPlayerFacingPerfText_C* TextGPURenderFrameTime; // 0x398(0x08)
+	struct UPlayerFacingPerfText_C* TextIdleFrameTime; // 0x3a0(0x08)
+	struct UPlayerFacingPerfText_C* TextInputLatencyCPU; // 0x3a8(0x08)
+	struct UPlayerFacingPerfText_C* TextInputLatencyCPU+GPU; // 0x3b0(0x08)
+	struct UPlayerFacingPerfText_C* TextInputLatencyGPU; // 0x3b8(0x08)
+	struct UPlayerFacingPerfText_C* TextInputLatencyPresentDelay; // 0x3c0(0x08)
+	struct UPlayerFacingPerfText_C* TextMoveCorrectionDistance; // 0x3c8(0x08)
+	struct UPlayerFacingPerfText_C* TextMovementandFiringShotErrors; // 0x3d0(0x08)
+	struct UPlayerFacingPerfText_C* TextMoveTimelineShift; // 0x3d8(0x08)
+	struct UPlayerFacingPerfText_C* TextNetworkRTTAvg+Max; // 0x3e0(0x08)
+	struct UPlayerFacingPerfText_C* TextNetworkRTTJitter; // 0x3e8(0x08)
+	struct UPlayerFacingPerfText_C* TextOutgoingInputQueueLength; // 0x3f0(0x08)
+	struct UPlayerFacingPerfText_C* TextOutgoingMoveQueueLength; // 0x3f8(0x08)
+	struct UPlayerFacingPerfText_C* TextPacketLossPercentIncoming; // 0x400(0x08)
+	struct UPlayerFacingPerfText_C* TextPacketLossPercentOutgoing; // 0x408(0x08)
+	struct UPlayerFacingPerfText_C* TextPacketLossPercentTotal; // 0x410(0x08)
+	struct UPlayerFacingPerfText_C* TextPacketsLostIncoming; // 0x418(0x08)
+	struct UPlayerFacingPerfText_C* TextPacketsLostOutgoing; // 0x420(0x08)
+	struct UPlayerFacingPerfText_C* TextPacketsLostTotal; // 0x428(0x08)
+	struct UPlayerFacingPerfText_C* TextQueuedRemoteMoves; // 0x430(0x08)
+	struct UPlayerFacingPerfText_C* TextReceivedPackets; // 0x438(0x08)
+	struct UPlayerFacingPerfText_C* TextRemoteInterpDelay; // 0x440(0x08)
+	struct UPlayerFacingPerfText_C* TextRenderFrameTime; // 0x448(0x08)
+	struct UPlayerFacingPerfText_C* TextRenderWait; // 0x450(0x08)
+	struct UPlayerFacingPerfText_C* TextRHIThreadFrameTime; // 0x458(0x08)
+	struct UPlayerFacingPerfText_C* TextSentPackets; // 0x460(0x08)
+	struct UPlayerFacingPerfText_C* TextServerFPS; // 0x468(0x08)
+	struct UPlayerFacingPerfText_C* TextTotalFrameTime; // 0x470(0x08)
+	struct UPlayerFacingPerfText_C* TextUsedPhysicalMemory; // 0x478(0x08)
+	struct TArray<struct UPlayerFacingPerfText_C*> ActiveTextBoxes; // 0x480(0x10)
+	struct UAresSettingsManager* Settings Manager; // 0x490(0x08)
+	double Grid Padding; // 0x498(0x08)
+	bool Debug Show All; // 0x4a0(0x01)
+	bool Show Server Stats; // 0x4a1(0x01)
+	char pad_4A2[0x6]; // 0x4a2(0x06)
+	struct TArray<struct UPlayerFacingPerfText_C*> AllTextBoxes; // 0x4a8(0x10)
+
+	void Initialize Text Boxes Array(); // Function PlayerFacingPerfTextGroup.PlayerFacingPerfTextGroup_C.Initialize Text Boxes Array // (Public|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void Update All Textbox Settings(); // Function PlayerFacingPerfTextGroup.PlayerFacingPerfTextGroup_C.Update All Textbox Settings // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void Set Text Box Is Enabled(struct UPlayerFacingPerfText_C* Text Box); // Function PlayerFacingPerfTextGroup.PlayerFacingPerfTextGroup_C.Set Text Box Is Enabled // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void Fill Grid(); // Function PlayerFacingPerfTextGroup.PlayerFacingPerfTextGroup_C.Fill Grid // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void On Settings Changed(enum class EAresIntSettingName Setting, int32_t Old Value, int32_t New Value); // Function PlayerFacingPerfTextGroup.PlayerFacingPerfTextGroup_C.On Settings Changed // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void OnInitialized(); // Function PlayerFacingPerfTextGroup.PlayerFacingPerfTextGroup_C.OnInitialized // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x1af5410
+	void ExecuteUbergraph_PlayerFacingPerfTextGroup(int32_t EntryPoint); // Function PlayerFacingPerfTextGroup.PlayerFacingPerfTextGroup_C.ExecuteUbergraph_PlayerFacingPerfTextGroup // (Final|UbergraphFunction) // @ game+0x1af5410
+};
+

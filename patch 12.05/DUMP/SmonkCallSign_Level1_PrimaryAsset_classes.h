@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass SmonkCallSign_Level1_PrimaryAsset.SmonkCallSign_Level1_PrimaryAsset_C
+// Size: 0xf0 (Inherited: 0xf0)
+struct USmonkCallSign_Level1_PrimaryAsset_C : USprayLevelDataAsset {
+};
+

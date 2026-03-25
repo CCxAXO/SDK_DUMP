@@ -1,0 +1,15 @@
+// BlueprintGeneratedClass WidgetFunctionLibrary.WidgetFunctionLibrary_C
+// Size: 0x30 (Inherited: 0x30)
+struct UWidgetFunctionLibrary_C : UBlueprintFunctionLibrary {
+
+	void Set Color and Opacity On Widget(struct UWidget* Widget, struct FLinearColor InColorAndOpacity, struct UObject* __WorldContext); // Function WidgetFunctionLibrary.WidgetFunctionLibrary_C.Set Color and Opacity On Widget // (Static|Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void Get Color and Opacity from Widget(struct UWidget* Widget, struct UObject* __WorldContext, struct FLinearColor& Color and Opacity); // Function WidgetFunctionLibrary.WidgetFunctionLibrary_C.Get Color and Opacity from Widget // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void HandleMapFade(bool IsBlinded, double TimeSinceLastBlindedChanged, struct FLinearColor BaseLinearColor, struct FDelegate FadeHandlerFunction, bool ShouldBindFadeHandlerFunction, double FadeDuration, double& FadeEndTimeReference, struct UObject* WorldContextObject, struct FTimerHandle& TimerHandleReference, struct UObject* __WorldContext, struct FLinearColor& ResultColorAndOpacity); // Function WidgetFunctionLibrary.WidgetFunctionLibrary_C.HandleMapFade // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void GetEquippableName(struct AAresEquippable* Equippable, struct UObject* __WorldContext, struct FText& Equippable Name); // Function WidgetFunctionLibrary.WidgetFunctionLibrary_C.GetEquippableName // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x1af5410
+	bool GetKeyFromActionMapping(struct FName ActionMapping, struct UObject* __WorldContext, struct FInputChord& OutChordStruture, struct FKey& Key); // Function WidgetFunctionLibrary.WidgetFunctionLibrary_C.GetKeyFromActionMapping // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x1af5410
+	void GetAllWidgetChildren(struct UPanelWidget* InWidget, struct UObject* __WorldContext, struct TArray<struct UWidget*>& ChildWidgets); // Function WidgetFunctionLibrary.WidgetFunctionLibrary_C.GetAllWidgetChildren // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x1af5410
+	void GetAllWidgetChildrenRecursive(struct UPanelWidget* InWidget, struct UObject* __WorldContext, struct TArray<struct UWidget*>& ChildWidgets); // Function WidgetFunctionLibrary.WidgetFunctionLibrary_C.GetAllWidgetChildrenRecursive // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x1af5410
+	void CompleteInitScreen(struct UObject* __WorldContext); // Function WidgetFunctionLibrary.WidgetFunctionLibrary_C.CompleteInitScreen // (Static|Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void SetImageWidgetImage(struct UImage* ImageWidget, struct UObject* ImageToSet, struct UObject* __WorldContext); // Function WidgetFunctionLibrary.WidgetFunctionLibrary_C.SetImageWidgetImage // (Static|Public|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+};
+

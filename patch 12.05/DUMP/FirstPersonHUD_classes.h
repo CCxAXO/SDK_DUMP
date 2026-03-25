@@ -1,0 +1,79 @@
+// WidgetBlueprintGeneratedClass FirstPersonHUD.FirstPersonHUD_C
+// Size: 0x4c0 (Inherited: 0x330)
+struct UFirstPersonHUD_C : UCoordinatedHUDElement {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x330(0x08)
+	struct UWidgetAnimation* FullBlur_Solid; // 0x338(0x08)
+	struct UWidgetAnimation* FullBlur; // 0x340(0x08)
+	struct UWidgetAnimation* TopBlur; // 0x348(0x08)
+	struct UWidgetAnimation* bottomBlur; // 0x350(0x08)
+	struct UWidgetAnimation* rightBlur; // 0x358(0x08)
+	struct UWidgetAnimation* leftBlur; // 0x360(0x08)
+	struct UCanvasPanel* AbilityHUDParent; // 0x368(0x08)
+	struct UActiveTimeoutWidget_C* ActiveTimeoutWidget; // 0x370(0x08)
+	struct UBlindsDrivenTimer_C* AttributeDrivenTimer; // 0x378(0x08)
+	struct UAwayPenaltyWidget_C* AwayPenaltyWidget; // 0x380(0x08)
+	struct UImage* baseHit; // 0x388(0x08)
+	struct UBlindedSourcePointsContainer_C* BlindedSourcePointsContainer; // 0x390(0x08)
+	struct UBlindsDrivenMaterialOverlay_C* BlindsMaterialOverlay; // 0x398(0x08)
+	struct UBuildNumberDisplay_C* BuildNumberDisplay; // 0x3a0(0x08)
+	struct UDirectionalIndicatorHUDElement_C* DirectionalIndicatorHUDElement_19; // 0x3a8(0x08)
+	struct UDirectionalIndicatorHUDThreat_C* DirectionalIndicatorHUDThreat; // 0x3b0(0x08)
+	struct UCanvasPanel* DrawOverOverlayContainer; // 0x3b8(0x08)
+	struct UHUDMoneyReadout_C* HUDMoneyReadout; // 0x3c0(0x08)
+	struct UCanvasPanel* InnerContainer; // 0x3c8(0x08)
+	struct UInvalidationBox* InvalidationBox_baseHit; // 0x3d0(0x08)
+	struct UInvalidationBox* InvalidationBox_leftHit; // 0x3d8(0x08)
+	struct UInvalidationBox* InvalidationBox_rightHit; // 0x3e0(0x08)
+	struct UInvalidationBox* InvalidationBox_TopHit; // 0x3e8(0x08)
+	struct UImage* LeftHit; // 0x3f0(0x08)
+	struct UCanvasPanel* MissionModuleContainer; // 0x3f8(0x08)
+	struct UObserverFollowTargetAnnouncement_C* ObserverFollowTargetAnnouncement; // 0x400(0x08)
+	struct UCanvasPanel* OverlayContainer; // 0x408(0x08)
+	struct UPlayerFacingPerfGraphGroup_C* PlayerFacingPerfGraphGroup; // 0x410(0x08)
+	struct UOverlay* PlayerFacingPerfOverlay; // 0x418(0x08)
+	struct UPlayerFacingPerfTextGroup_C* PlayerFacingPerfTextGroup; // 0x420(0x08)
+	struct UImage* RightHit; // 0x428(0x08)
+	struct USafeZone* SafeZone_2; // 0x430(0x08)
+	struct UScreenTransitionOverlay_C* ScreenTransitionOverlay; // 0x438(0x08)
+	struct UTeamVoiceActivity_C* TeamVoiceActivity_182; // 0x440(0x08)
+	struct UImage* TopHit; // 0x448(0x08)
+	struct UUsablesHUDElement_C* UsablesHUDElement_27; // 0x450(0x08)
+	struct UWBP_HUDElement_VoiceInfo_C* WBP_HUDElement_VoiceInfo; // 0x458(0x08)
+	struct UWBP_View_StanceIndicator_C* WBP_View_StanceIndicator; // 0x460(0x08)
+	struct UCoordinatedHUDModel* HUDModel; // 0x468(0x08)
+	struct FVector Direction; // 0x470(0x18)
+	struct FRotator ReverseDirectionRotator; // 0x488(0x18)
+	struct UHorizontalBox* AbilityBoxBase_1; // 0x4a0(0x08)
+	struct AShooterCharacter* DisplayedSpawnedCharacter; // 0x4a8(0x08)
+	struct UCoordinatedShooterUIModel* ShooterUIModel; // 0x4b0(0x08)
+	struct UDamageableComponent* CurrentPossessableDamageComponent; // 0x4b8(0x08)
+
+	void Damage Over Time Tag Changed(struct UAresAbilitySystemComponent* AbilitySystem, struct FGameplayTag Tag, bool TagActive); // Function FirstPersonHUD.FirstPersonHUD_C.Damage Over Time Tag Changed // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void OnPossessedPawnDamageTaken(struct UDamageResponse* DamageResponse); // Function FirstPersonHUD.FirstPersonHUD_C.OnPossessedPawnDamageTaken // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void CleanupHUDElements(); // Function FirstPersonHUD.FirstPersonHUD_C.CleanupHUDElements // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void SetupPawnViewTargetDamageBindings(struct AActor* NewViewTarget); // Function FirstPersonHUD.FirstPersonHUD_C.SetupPawnViewTargetDamageBindings // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void Update Flash Background for Platform(); // Function FirstPersonHUD.FirstPersonHUD_C.Update Flash Background for Platform // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void HideCrosshairSettingChanged(enum class EAresBoolSettingName SettingName, bool OldValue, bool NewValue); // Function FirstPersonHUD.FirstPersonHUD_C.HideCrosshairSettingChanged // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void HideUISettingChanged(enum class EAresBoolSettingName SettingName, bool OldValue, bool NewValue); // Function FirstPersonHUD.FirstPersonHUD_C.HideUISettingChanged // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void SpawnedCharacterChanged_Event(struct AShooterCharacter* New Value); // Function FirstPersonHUD.FirstPersonHUD_C.SpawnedCharacterChanged_Event // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void InDangerChanged(struct UAresAbilitySystemComponent* AbilitySystem, struct FGameplayAttribute& Attribute, float OldValue, float NewValue); // Function FirstPersonHUD.FirstPersonHUD_C.InDangerChanged // (Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void OnCinematicModeUpdated_Event(); // Function FirstPersonHUD.FirstPersonHUD_C.OnCinematicModeUpdated_Event // (Public|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void OnDamaged_Event(struct UDamageResponse* Response); // Function FirstPersonHUD.FirstPersonHUD_C.OnDamaged_Event // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void OnAliveStateChanged_Event(bool NewValue); // Function FirstPersonHUD.FirstPersonHUD_C.OnAliveStateChanged_Event // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void SetHUDModels(); // Function FirstPersonHUD.FirstPersonHUD_C.SetHUDModels // (Public|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void EnableStanceIndicatorForGamepad(); // Function FirstPersonHUD.FirstPersonHUD_C.EnableStanceIndicatorForGamepad // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void AdjustLayoutForDevice(); // Function FirstPersonHUD.FirstPersonHUD_C.AdjustLayoutForDevice // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void AddWidgetToMissionModuleContainer(struct UUserWidget* WidgetClass); // Function FirstPersonHUD.FirstPersonHUD_C.AddWidgetToMissionModuleContainer // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void HandleCustomDamageFeedback(struct UDmgType_Base_C* DmgClass); // Function FirstPersonHUD.FirstPersonHUD_C.HandleCustomDamageFeedback // (Public|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void stopOnHitAnimations(); // Function FirstPersonHUD.FirstPersonHUD_C.stopOnHitAnimations // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void HandlePlayerViewTargetModeChanged(enum class EAresPlayerViewTargetMode NewPlayerViewTargetMode); // Function FirstPersonHUD.FirstPersonHUD_C.HandlePlayerViewTargetModeChanged // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void OnPlayerViewTargetModeChanged(enum class EAresPlayerViewTargetMode NewPlayerViewTargetMode); // Function FirstPersonHUD.FirstPersonHUD_C.OnPlayerViewTargetModeChanged // (BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void SetCoordinatedShooterUIModel(struct UCoordinatedShooterUIModel* CoordinatedShooterUIModel); // Function FirstPersonHUD.FirstPersonHUD_C.SetCoordinatedShooterUIModel // (Event|Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void OnShooterHUDReady(struct AShooterHUD* ShooterHUD); // Function FirstPersonHUD.FirstPersonHUD_C.OnShooterHUDReady // (BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void OnInitialized(); // Function FirstPersonHUD.FirstPersonHUD_C.OnInitialized // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x1af5410
+	void OnViewTargetChanged(struct AActor* NewViewTarget); // Function FirstPersonHUD.FirstPersonHUD_C.OnViewTargetChanged // (BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void SetHUDModel(struct UCoordinatedHUDModel* HUDModel); // Function FirstPersonHUD.FirstPersonHUD_C.SetHUDModel // (Event|Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void OnGameFeatureToggleChanged(enum class EGameFeatureToggleName GameFeatureToggleName, bool bEnabled); // Function FirstPersonHUD.FirstPersonHUD_C.OnGameFeatureToggleChanged // (BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void ExecuteUbergraph_FirstPersonHUD(int32_t EntryPoint); // Function FirstPersonHUD.FirstPersonHUD_C.ExecuteUbergraph_FirstPersonHUD // (Final|UbergraphFunction|HasDefaults) // @ game+0x1af5410
+};
+

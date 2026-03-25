@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass SurfingTactibear_Level1_PrimaryAsset.SurfingTactibear_Level1_PrimaryAsset_C
+// Size: 0xf0 (Inherited: 0xf0)
+struct USurfingTactibear_Level1_PrimaryAsset_C : USprayLevelDataAsset {
+};
+

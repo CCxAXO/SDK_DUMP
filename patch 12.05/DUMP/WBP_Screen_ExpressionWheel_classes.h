@@ -1,0 +1,47 @@
+// WidgetBlueprintGeneratedClass WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C
+// Size: 0x648 (Inherited: 0x578)
+struct UWBP_Screen_ExpressionWheel_C : UWBP_Screen_ExpressionWheel_Base_C {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x578(0x08)
+	struct UWBP_Panel_ExpressionWheel_C* ExpressionWheelWidget_Console; // 0x580(0x08)
+	struct UWBP_Panel_RadialMenuInstructions_Console_C* InstructionsWidget; // 0x588(0x08)
+	struct UCanvasPanel* ParentCanvas; // 0x590(0x08)
+	struct UOverlay* WheelContainer; // 0x598(0x08)
+	struct UVM_ExpressionWheel_C* CurrentExpressionWheelVM_1; // 0x5a0(0x08)
+	struct FTimerHandle HoldInputTimer; // 0x5a8(0x08)
+	double WheelActivateDeadzone; // 0x5b0(0x08)
+	struct FTimerHandle StickNeutralPositionCheckTimer; // 0x5b8(0x08)
+	double HoldInputActivationTime; // 0x5c0(0x08)
+	struct FVector2D StickVectorWhenClosed; // 0x5c8(0x10)
+	struct FMulticastInlineDelegate EventRadialOptionSelected; // 0x5d8(0x10)
+	double InspectActivationTime; // 0x5e8(0x08)
+	struct FTimerHandle InspectInputTimer; // 0x5f0(0x08)
+	struct FMulticastInlineDelegate EventInspectTriggered; // 0x5f8(0x10)
+	bool IsInvisibleInputCapturing; // 0x608(0x01)
+	bool bIsManualCancel; // 0x609(0x01)
+	bool bShouldTriggerInspect; // 0x60a(0x01)
+	char pad_60B[0x5]; // 0x60b(0x05)
+	struct FMulticastInlineDelegate EventRadialOptionCast_1; // 0x610(0x10)
+	struct FMulticastInlineDelegate EventHandleCenterHighlight; // 0x620(0x10)
+	bool bIsCenterSelected; // 0x630(0x01)
+	char pad_631[0x7]; // 0x631(0x07)
+	struct FMulticastInlineDelegate EventHandleCancelHighlight; // 0x638(0x10)
+
+	void OnExpressionWheelInputDown(); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.OnExpressionWheelInputDown // (Event|Public|BlueprintEvent) // @ game+0x1af5410
+	void OnExpressionWheelInputUp(); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.OnExpressionWheelInputUp // (Event|Public|BlueprintEvent) // @ game+0x1af5410
+	void ExpressionInputHeld(); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.ExpressionInputHeld // (BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void Tick(struct FGeometry MyGeometry, float InDeltaTime); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.Tick // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x1af5410
+	void BP_OnHide(); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.BP_OnHide // (Event|Protected|BlueprintEvent) // @ game+0x1af5410
+	void BP_OnShow(); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.BP_OnShow // (Event|Protected|BlueprintEvent) // @ game+0x1af5410
+	void CancelWheel(); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.CancelWheel // (BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void RemoveCenterHighlight(struct URadialMenuBase* RadialMenu, int32_t SelectedItem); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.RemoveCenterHighlight // (BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void K2_BindToViewModel(); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.K2_BindToViewModel // (Event|Public|BlueprintEvent) // @ game+0x1af5410
+	void EarlySetup(); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.EarlySetup // (Event|Public|BlueprintEvent) // @ game+0x1af5410
+	void OnScoreboardVisibilityChange(bool IsVisible); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.OnScoreboardVisibilityChange // (BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void ExecuteUbergraph_WBP_Screen_ExpressionWheel(int32_t EntryPoint); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.ExecuteUbergraph_WBP_Screen_ExpressionWheel // (Final|UbergraphFunction|HasDefaults) // @ game+0x1af5410
+	void EventHandleCancelHighlight__DelegateSignature(bool bIsSelected); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.EventHandleCancelHighlight__DelegateSignature // (Public|Delegate|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void EventHandleCenterHighlight__DelegateSignature(bool bIsCenterHighlighted); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.EventHandleCenterHighlight__DelegateSignature // (Public|Delegate|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void EventRadialOptionCast_0__DelegateSignature(int32_t SelectedIndex, bool ShouldTriggerInspect); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.EventRadialOptionCast_0__DelegateSignature // (Public|Delegate|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void EventInspectTriggered__DelegateSignature(); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.EventInspectTriggered__DelegateSignature // (Public|Delegate|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void EventRadialOptionSelected__DelegateSignature(); // Function WBP_Screen_ExpressionWheel.WBP_Screen_ExpressionWheel_C.EventRadialOptionSelected__DelegateSignature // (Public|Delegate|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+};
+

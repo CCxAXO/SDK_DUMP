@@ -1,0 +1,25 @@
+// WidgetBlueprintGeneratedClass WBP_Screen_SocialPanelPage_QQFriends_Desktop.WBP_Screen_SocialPanelPage_QQFriends_Desktop_C
+// Size: 0x590 (Inherited: 0x538)
+struct UWBP_Screen_SocialPanelPage_QQFriends_Desktop_C : UWBP_Screen_SocialPage_Base_C {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x538(0x08)
+	struct USocialExperienceOpenStateViewModel* SocialExperienceOpenStateViewModel; // 0x540(0x08)
+	struct UWBP_Panel_Folder_SocialPanelPlayer_C* Folder_Offline; // 0x548(0x08)
+	struct UWBP_Panel_Folder_SocialPanelPlayer_C* Folder_Online_NoProduct; // 0x550(0x08)
+	struct UWBP_Panel_Folder_SocialPanelPlayer_C* Folder_Online_OtherGame; // 0x558(0x08)
+	struct UWBP_Panel_Folder_SocialPanelPlayer_C* Folder_Online_VAL; // 0x560(0x08)
+	struct UImage* Image_HitTestableScrollArea; // 0x568(0x08)
+	struct UWBP_Template_SocialPanelInfoBox_Console_C* InfoBox_NoFriends; // 0x570(0x08)
+	struct UWBP_Panel_TextBox_SocialPlayerFilter_C* WBP_Panel_TextBox_SocialPlayerFilter; // 0x578(0x08)
+	struct UWBP_Template_SocialPage_SocialPanel_C* WBP_Template_SocialPage_SocialPanel; // 0x580(0x08)
+	struct UWidgetSwitcher* WidgetSwitcher_FriendsList; // 0x588(0x08)
+
+	void UpdateFriendsListVisibility(); // Function WBP_Screen_SocialPanelPage_QQFriends_Desktop.WBP_Screen_SocialPanelPage_QQFriends_Desktop_C.UpdateFriendsListVisibility // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void Construct(); // Function WBP_Screen_SocialPanelPage_QQFriends_Desktop.WBP_Screen_SocialPanelPage_QQFriends_Desktop_C.Construct // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x1af5410
+	void OnOpenInterpolationChanged(double OpenInterpolation); // Function WBP_Screen_SocialPanelPage_QQFriends_Desktop.WBP_Screen_SocialPanelPage_QQFriends_Desktop_C.OnOpenInterpolationChanged // (BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Online_VAL_K2Node_ComponentBoundEvent_0_OnVisibilityChangedEvent__DelegateSignature(enum class ESlateVisibility InVisibility); // Function WBP_Screen_SocialPanelPage_QQFriends_Desktop.WBP_Screen_SocialPanelPage_QQFriends_Desktop_C.BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Online_VAL_K2Node_ComponentBoundEvent_0_OnVisibilityChangedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1af5410
+	void BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Online_NoProduct_K2Node_ComponentBoundEvent_1_OnVisibilityChangedEvent__DelegateSignature(enum class ESlateVisibility InVisibility); // Function WBP_Screen_SocialPanelPage_QQFriends_Desktop.WBP_Screen_SocialPanelPage_QQFriends_Desktop_C.BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Online_NoProduct_K2Node_ComponentBoundEvent_1_OnVisibilityChangedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1af5410
+	void BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Online_OtherGame_K2Node_ComponentBoundEvent_2_OnVisibilityChangedEvent__DelegateSignature(enum class ESlateVisibility InVisibility); // Function WBP_Screen_SocialPanelPage_QQFriends_Desktop.WBP_Screen_SocialPanelPage_QQFriends_Desktop_C.BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Online_OtherGame_K2Node_ComponentBoundEvent_2_OnVisibilityChangedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1af5410
+	void BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Offline_K2Node_ComponentBoundEvent_3_OnVisibilityChangedEvent__DelegateSignature(enum class ESlateVisibility InVisibility); // Function WBP_Screen_SocialPanelPage_QQFriends_Desktop.WBP_Screen_SocialPanelPage_QQFriends_Desktop_C.BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Offline_K2Node_ComponentBoundEvent_3_OnVisibilityChangedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1af5410
+	void ExecuteUbergraph_WBP_Screen_SocialPanelPage_QQFriends_Desktop(int32_t EntryPoint); // Function WBP_Screen_SocialPanelPage_QQFriends_Desktop.WBP_Screen_SocialPanelPage_QQFriends_Desktop_C.ExecuteUbergraph_WBP_Screen_SocialPanelPage_QQFriends_Desktop // (Final|UbergraphFunction) // @ game+0x1af5410
+};
+
