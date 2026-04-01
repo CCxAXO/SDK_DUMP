@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass Noted_PrimaryAsset.Noted_PrimaryAsset_C
+// Size: 0xd8 (Inherited: 0xd8)
+struct UNoted_PrimaryAsset_C : USprayDataAsset {
+};
+

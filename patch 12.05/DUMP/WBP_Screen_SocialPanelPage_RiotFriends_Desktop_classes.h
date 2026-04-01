@@ -1,0 +1,42 @@
+// WidgetBlueprintGeneratedClass WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C
+// Size: 0x5d0 (Inherited: 0x538)
+struct UWBP_Screen_SocialPanelPage_RiotFriends_Desktop_C : UWBP_Screen_SocialPage_Base_C {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x538(0x08)
+	struct UAresSocialPlayerFilterStringViewModel* AresSocialPlayerFilterStringViewModel; // 0x540(0x08)
+	struct USocialExperienceOpenStateViewModel* SocialExperienceOpenStateViewModel; // 0x548(0x08)
+	struct UWBP_Panel_Folder_SocialPanelPlayer_C* Folder_Offline_QQ; // 0x550(0x08)
+	struct UWBP_Panel_Folder_SocialPanelPlayer_C* Folder_Offline_Riot; // 0x558(0x08)
+	struct UWBP_Panel_Folder_SocialPanelPlayer_C* Folder_Offline_W; // 0x560(0x08)
+	struct UWBP_Panel_Folder_SocialPanelPlayer_C* Folder_Online_NoProduct; // 0x568(0x08)
+	struct UWBP_Panel_Folder_SocialPanelPlayer_C* Folder_Online_OtherGame; // 0x570(0x08)
+	struct UWBP_Panel_Folder_SocialPanelParty_C* Folder_Online_VAL; // 0x578(0x08)
+	struct UImage* Image_HitTestableScrollArea; // 0x580(0x08)
+	struct UWBP_Template_SocialPanelInfoBox_Console_C* InfoBox_NoFriends; // 0x588(0x08)
+	struct UWBP_Panel_List_SocialPanelParty_C* List_LocalPlayerParty; // 0x590(0x08)
+	struct USizeBox* SizeBox_NoPlayersFound; // 0x598(0x08)
+	struct UWBP_Panel_TruncatedList_PartyMessage_C* TruncatedList_PartyMessage; // 0x5a0(0x08)
+	struct UWBP_Panel_TruncatedList_RosterInvite_C* TruncatedList_RosterInvite; // 0x5a8(0x08)
+	struct UWBP_Panel_PriorityInterventionStatus_C* WBP_Panel_PriorityInterventionStatus; // 0x5b0(0x08)
+	struct UWBP_Panel_TextBox_SocialPlayerFilter_C* WBP_Panel_TextBox_SocialPlayerFilter; // 0x5b8(0x08)
+	struct UWBP_Template_SocialPage_SocialPanel_C* WBP_Template_SocialPage_SocialPanel; // 0x5c0(0x08)
+	struct UWidgetSwitcher* WidgetSwitcher_FriendsList; // 0x5c8(0x08)
+
+	void GetPlayerListVisibilities(bool& bOutNoPlayersAreVisible, bool& bOutNoFriendsAreVisible); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.GetPlayerListVisibilities // (Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void UpdatePlayerListAppearance(); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.UpdatePlayerListAppearance // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void OnInitialized(); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.OnInitialized // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x1af5410
+	void K2_BindToViewModel(); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.K2_BindToViewModel // (Event|Public|BlueprintEvent) // @ game+0x1af5410
+	void Destruct(); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.Destruct // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x1af5410
+	void OnPageClosed(enum class EAresSocialTabSelectionDirection Direction, enum class EAresSocialTransitionType TransitionType); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.OnPageClosed // (Event|Protected|BlueprintEvent) // @ game+0x1af5410
+	void OnSocialExperienceIsOpenChanged(bool bIsOpen); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.OnSocialExperienceIsOpenChanged // (BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void OnSocialExperienceOpenInterpolationChanged(double OpenInterpolation); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.OnSocialExperienceOpenInterpolationChanged // (BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void OnPlayerFilterStringChanged(struct FString PlayerFilterString); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.OnPlayerFilterStringChanged // (BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_List_LocalPlayerParty_K2Node_ComponentBoundEvent_5_OnVisibilityChangedEvent__DelegateSignature(enum class ESlateVisibility InVisibility); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_List_LocalPlayerParty_K2Node_ComponentBoundEvent_5_OnVisibilityChangedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1af5410
+	void BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Online_VAL_K2Node_ComponentBoundEvent_4_OnVisibilityChangedEvent__DelegateSignature(enum class ESlateVisibility InVisibility); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Online_VAL_K2Node_ComponentBoundEvent_4_OnVisibilityChangedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1af5410
+	void BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Online_NoProduct_K2Node_ComponentBoundEvent_1_OnVisibilityChangedEvent__DelegateSignature(enum class ESlateVisibility InVisibility); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Online_NoProduct_K2Node_ComponentBoundEvent_1_OnVisibilityChangedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1af5410
+	void BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Online_OtherGame_K2Node_ComponentBoundEvent_2_OnVisibilityChangedEvent__DelegateSignature(enum class ESlateVisibility InVisibility); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Online_OtherGame_K2Node_ComponentBoundEvent_2_OnVisibilityChangedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1af5410
+	void BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_W_K2Node_ComponentBoundEvent_6_OnVisibilityChangedEvent__DelegateSignature(enum class ESlateVisibility InVisibility); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_W_K2Node_ComponentBoundEvent_6_OnVisibilityChangedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1af5410
+	void BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Offline_QQ_K2Node_ComponentBoundEvent_0_OnVisibilityChangedEvent__DelegateSignature(enum class ESlateVisibility InVisibility); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Offline_QQ_K2Node_ComponentBoundEvent_0_OnVisibilityChangedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1af5410
+	void BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Offline_K2Node_ComponentBoundEvent_3_OnVisibilityChangedEvent__DelegateSignature(enum class ESlateVisibility InVisibility); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.BndEvt__WBP_Screen_SocialPanelPage_RiotFriends_Desktop_Folder_Offline_K2Node_ComponentBoundEvent_3_OnVisibilityChangedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1af5410
+	void ExecuteUbergraph_WBP_Screen_SocialPanelPage_RiotFriends_Desktop(int32_t EntryPoint); // Function WBP_Screen_SocialPanelPage_RiotFriends_Desktop.WBP_Screen_SocialPanelPage_RiotFriends_Desktop_C.ExecuteUbergraph_WBP_Screen_SocialPanelPage_RiotFriends_Desktop // (Final|UbergraphFunction) // @ game+0x1af5410
+};
+
