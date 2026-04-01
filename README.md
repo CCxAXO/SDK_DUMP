@@ -1,7 +1,6 @@
 # SDK_DUMP
 
 SDK Dump of VALORANT-Win64-Shipping.exe.<br>
-Upto you what you are going to use this for.<br>
 All dumps based on Unreal Engine 5.<br>
 Only for educational purposes.
 
