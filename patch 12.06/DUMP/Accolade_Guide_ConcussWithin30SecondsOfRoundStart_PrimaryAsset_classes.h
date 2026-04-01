@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass Accolade_Guide_ConcussWithin30SecondsOfRoundStart_PrimaryAsset.Accolade_Guide_ConcussWithin30SecondsOfRoundStart_PrimaryAsset_C
+// Size: 0xb0 (Inherited: 0xb0)
+struct UAccolade_Guide_ConcussWithin30SecondsOfRoundStart_PrimaryAsset_C : UAccoladeDataAsset {
+};
+

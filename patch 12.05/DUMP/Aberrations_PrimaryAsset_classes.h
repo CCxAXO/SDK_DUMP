@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass Aberrations_PrimaryAsset.Aberrations_PrimaryAsset_C
+// Size: 0xd8 (Inherited: 0xd8)
+struct UAberrations_PrimaryAsset_C : USprayDataAsset {
+};
+

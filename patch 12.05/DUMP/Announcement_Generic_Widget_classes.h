@@ -1,0 +1,26 @@
+// WidgetBlueprintGeneratedClass Announcement_Generic_Widget.Announcement_Generic_Widget_C
+// Size: 0x398 (Inherited: 0x322)
+struct UAnnouncement_Generic_Widget_C : UBaseAnnouncementWidget_C {
+	char pad_322[0x6]; // 0x322(0x06)
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x328(0x08)
+	struct UWidgetAnimation* Anim_IN; // 0x330(0x08)
+	struct UWidgetAnimation* Anim_OUT; // 0x338(0x08)
+	struct UImage* bar_left; // 0x340(0x08)
+	struct UImage* bar_right; // 0x348(0x08)
+	struct UBombIcon_C* BombIcon; // 0x350(0x08)
+	struct UImage* BrushNormal; // 0x358(0x08)
+	struct UTextBlock* PrimaryText; // 0x360(0x08)
+	struct UTextBlock* Sub_Text; // 0x368(0x08)
+	struct AShooterCharacter* Character; // 0x370(0x08)
+	struct FText Text; // 0x378(0x18)
+	struct AActor* actorForLocationText; // 0x390(0x08)
+
+	void get VolumeLocation(struct AActor* Actor, struct FText& calloutVolumeText); // Function Announcement_Generic_Widget.Announcement_Generic_Widget_C.get VolumeLocation // (Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void GetNameFromPlayerState(struct AShooterPlayerState* State, struct FText& Name); // Function Announcement_Generic_Widget.Announcement_Generic_Widget_C.GetNameFromPlayerState // (Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x1af5410
+	void UpdateIcon(struct UImage* Widget, struct UTexture* Texture); // Function Announcement_Generic_Widget.Announcement_Generic_Widget_C.UpdateIcon // (Public|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void Construct(); // Function Announcement_Generic_Widget.Announcement_Generic_Widget_C.Construct // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x1af5410
+	void OnAnimatingIn(); // Function Announcement_Generic_Widget.Announcement_Generic_Widget_C.OnAnimatingIn // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void OnAnimatingOut(); // Function Announcement_Generic_Widget.Announcement_Generic_Widget_C.OnAnimatingOut // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1af5410
+	void ExecuteUbergraph_Announcement_Generic_Widget(int32_t EntryPoint); // Function Announcement_Generic_Widget.Announcement_Generic_Widget_C.ExecuteUbergraph_Announcement_Generic_Widget // (Final|UbergraphFunction|HasDefaults) // @ game+0x1af5410
+};
+

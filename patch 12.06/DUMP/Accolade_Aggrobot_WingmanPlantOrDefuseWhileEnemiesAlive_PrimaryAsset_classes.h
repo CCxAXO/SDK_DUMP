@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass Accolade_Aggrobot_WingmanPlantOrDefuseWhileEnemiesAlive_PrimaryAsset.Accolade_Aggrobot_WingmanPlantOrDefuseWhileEnemiesAlive_PrimaryAsset_C
+// Size: 0xb0 (Inherited: 0xb0)
+struct UAccolade_Aggrobot_WingmanPlantOrDefuseWhileEnemiesAlive_PrimaryAsset_C : UAccoladeDataAsset {
+};
+

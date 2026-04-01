@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass Playercard_StarPowerHMG_PrimaryAsset.Playercard_StarPowerHMG_PrimaryAsset_C
+// Size: 0x200 (Inherited: 0x200)
+struct UPlayercard_StarPowerHMG_PrimaryAsset_C : UPlayerCardDataAsset {
+};
+

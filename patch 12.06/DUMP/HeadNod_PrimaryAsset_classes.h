@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass HeadNod_PrimaryAsset.HeadNod_PrimaryAsset_C
+// Size: 0xd8 (Inherited: 0xd8)
+struct UHeadNod_PrimaryAsset_C : USprayDataAsset {
+};
+
