@@ -1,0 +1,9 @@
+// BlueprintGeneratedClass ShowBullet_DoubleSniper.ShowBullet_DoubleSniper_C
+// Size: 0x42 (Inherited: 0x40)
+struct UShowBullet_DoubleSniper_C : UAnimNotify {
+	bool NewVisibility; // 0x40(0x01)
+	bool UseSecondaryMagazine?; // 0x41(0x01)
+
+	bool Received_Notify(struct USkeletalMeshComponent* MeshComp, struct UAnimSequenceBase* Animation, struct FAnimNotifyEventReference& EventReference); // Function ShowBullet_DoubleSniper.ShowBullet_DoubleSniper_C.Received_Notify // (Event|Public|HasOutParms|BlueprintCallable|BlueprintEvent|Const) // @ game+0x1b42740
+};
+

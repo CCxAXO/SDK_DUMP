@@ -1,0 +1,16 @@
+// WidgetBlueprintGeneratedClass WBP_Panel_HovercardSection_OtherPlayerDetails.WBP_Panel_HovercardSection_OtherPlayerDetails_C
+// Size: 0x408 (Inherited: 0x3e0)
+struct UWBP_Panel_HovercardSection_OtherPlayerDetails_C : UWBP_Panel_HovercardSection_SocialPanelPlayer_Base_C {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x3e0(0x08)
+	struct UWBP_Template_HovercardDetailRow_Social_C* Row_FriendNote; // 0x3e8(0x08)
+	struct UWBP_Template_HovercardDetailRow_Social_C* Row_LoginLocation; // 0x3f0(0x08)
+	struct UWBP_Panel_FriendNote_C* WBP_Panel_FriendNote; // 0x3f8(0x08)
+	struct UWBP_Panel_PlayerLoginLocation_C* WBP_Panel_PlayerLoginLocation; // 0x400(0x08)
+
+	void SetObservedPlayer(struct FString InPlayerSubject); // Function WBP_Panel_HovercardSection_OtherPlayerDetails.WBP_Panel_HovercardSection_OtherPlayerDetails_C.SetObservedPlayer // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1b42740
+	void UpdateVisibility(); // Function WBP_Panel_HovercardSection_OtherPlayerDetails.WBP_Panel_HovercardSection_OtherPlayerDetails_C.UpdateVisibility // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1b42740
+	void BndEvt__WBP_Panel_HovercardSection_OtherPlayerDetails_WBP_Panel_PlayerLoginLocation_K2Node_ComponentBoundEvent_3_OnVisibilityChangedEvent__DelegateSignature(enum class ESlateVisibility InVisibility); // Function WBP_Panel_HovercardSection_OtherPlayerDetails.WBP_Panel_HovercardSection_OtherPlayerDetails_C.BndEvt__WBP_Panel_HovercardSection_OtherPlayerDetails_WBP_Panel_PlayerLoginLocation_K2Node_ComponentBoundEvent_3_OnVisibilityChangedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1b42740
+	void BndEvt__WBP_Panel_HovercardSection_OtherPlayerDetails_WBP_Panel_FriendNote_K2Node_ComponentBoundEvent_4_OnVisibilityChangedEvent__DelegateSignature(enum class ESlateVisibility InVisibility); // Function WBP_Panel_HovercardSection_OtherPlayerDetails.WBP_Panel_HovercardSection_OtherPlayerDetails_C.BndEvt__WBP_Panel_HovercardSection_OtherPlayerDetails_WBP_Panel_FriendNote_K2Node_ComponentBoundEvent_4_OnVisibilityChangedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1b42740
+	void ExecuteUbergraph_WBP_Panel_HovercardSection_OtherPlayerDetails(int32_t EntryPoint); // Function WBP_Panel_HovercardSection_OtherPlayerDetails.WBP_Panel_HovercardSection_OtherPlayerDetails_C.ExecuteUbergraph_WBP_Panel_HovercardSection_OtherPlayerDetails // (Final|UbergraphFunction) // @ game+0x1b42740
+};
+

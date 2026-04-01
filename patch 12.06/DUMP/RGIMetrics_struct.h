@@ -1,0 +1,32 @@
+// ScriptStruct RGIMetrics.RGINameEntry
+// Size: 0x10 (Inherited: 0x00)
+struct FRGINameEntry {
+	struct FName Name; // 0x00(0x0c)
+	uint32_t ID; // 0x0c(0x04)
+};
+
+// ScriptStruct RGIMetrics.RGIMetricReplicatedData
+// Size: 0x18 (Inherited: 0x00)
+struct FRGIMetricReplicatedData {
+	uint32_t ID; // 0x00(0x04)
+	char pad_4[0x4]; // 0x04(0x04)
+	double Time; // 0x08(0x08)
+	double Value; // 0x10(0x08)
+};
+
+// ScriptStruct RGIMetrics.RGIMetricTelemetryData
+// Size: 0x50 (Inherited: 0x00)
+struct FRGIMetricTelemetryData {
+	struct FName Name; // 0x00(0x0c)
+	char pad_C[0x4]; // 0x0c(0x04)
+	double Min; // 0x10(0x08)
+	double Max; // 0x18(0x08)
+	double Avg; // 0x20(0x08)
+	double P90; // 0x28(0x08)
+	double P99; // 0x30(0x08)
+	double P999; // 0x38(0x08)
+	double P9999; // 0x40(0x08)
+	uint32_t NumSamples; // 0x48(0x04)
+	char pad_4C[0x4]; // 0x4c(0x04)
+};
+

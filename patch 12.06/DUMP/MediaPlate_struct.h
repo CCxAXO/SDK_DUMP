@@ -1,0 +1,12 @@
+// Enum MediaPlate.EMediaPlateEventState
+enum class EMediaPlateEventState : uint8 {
+	Play = 0,
+	Open = 1,
+	Close = 2,
+	Pause = 3,
+	Reverse = 4,
+	Forward = 5,
+	Rewind = 6,
+	MAX = 7
+};
+

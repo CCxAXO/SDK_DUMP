@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass GunBuddy_Hydrodip_PrimaryAsset.GunBuddy_Hydrodip_PrimaryAsset_C
+// Size: 0xf0 (Inherited: 0xf0)
+struct UGunBuddy_Hydrodip_PrimaryAsset_C : UEquippableCharmDataAsset {
+};
+

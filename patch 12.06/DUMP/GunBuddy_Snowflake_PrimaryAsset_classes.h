@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass GunBuddy_Snowflake_PrimaryAsset.GunBuddy_Snowflake_PrimaryAsset_C
+// Size: 0xf0 (Inherited: 0xf0)
+struct UGunBuddy_Snowflake_PrimaryAsset_C : UEquippableCharmDataAsset {
+};
+

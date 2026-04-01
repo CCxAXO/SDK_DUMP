@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass ReviveMeWhileEating_PrimaryAsset.ReviveMeWhileEating_PrimaryAsset_C
+// Size: 0xd8 (Inherited: 0xd8)
+struct UReviveMeWhileEating_PrimaryAsset_C : USprayDataAsset {
+};
+

@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass Spray_KidDrawing_Waylay_Level1_PrimaryAsset.Spray_KidDrawing_Waylay_Level1_PrimaryAsset_C
+// Size: 0xf0 (Inherited: 0xf0)
+struct USpray_KidDrawing_Waylay_Level1_PrimaryAsset_C : USprayLevelDataAsset {
+};
+

@@ -1,0 +1,19 @@
+// WidgetBlueprintGeneratedClass WBP_VoiceSpeakerButton_Icon_Desktop.WBP_VoiceSpeakerButton_Icon_Desktop_C
+// Size: 0x3b0 (Inherited: 0x388)
+struct UWBP_VoiceSpeakerButton_Icon_Desktop_C : UWBP_VoiceSpeakerButton_Base_Desktop_C {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x388(0x08)
+	struct UButton* Button; // 0x390(0x08)
+	struct UMenuAnchor* MenuAnchor_Tooltip; // 0x398(0x08)
+	struct UWBP_Panel_VoiceIndicator_SpeakerIcon_C* WBP_Panel_VoiceIndicator_SpeakerIcon; // 0x3a0(0x08)
+	struct UAkAudioEvent* HoverSound; // 0x3a8(0x08)
+
+	struct UUserWidget* On_Tooltip_GetUserMenuContent(); // Function WBP_VoiceSpeakerButton_Icon_Desktop.WBP_VoiceSpeakerButton_Icon_Desktop_C.On_Tooltip_GetUserMenuContent // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x1b42740
+	void OnInitialized(); // Function WBP_VoiceSpeakerButton_Icon_Desktop.WBP_VoiceSpeakerButton_Icon_Desktop_C.OnInitialized // (BlueprintCosmetic|Event|Public|BlueprintEvent) // @ game+0x1b42740
+	void BndEvt__WBP_VoiceSpeakerButton_Desktop_Button_100_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature(); // Function WBP_VoiceSpeakerButton_Icon_Desktop.WBP_VoiceSpeakerButton_Icon_Desktop_C.BndEvt__WBP_VoiceSpeakerButton_Desktop_Button_100_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1b42740
+	void BndEvt__WBP_VoiceSpeakerButton_Desktop_Button_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature(); // Function WBP_VoiceSpeakerButton_Icon_Desktop.WBP_VoiceSpeakerButton_Icon_Desktop_C.BndEvt__WBP_VoiceSpeakerButton_Desktop_Button_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1b42740
+	void BndEvt__WBP_VoiceSpeakerButton_Desktop_Button_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature(); // Function WBP_VoiceSpeakerButton_Icon_Desktop.WBP_VoiceSpeakerButton_Icon_Desktop_C.BndEvt__WBP_VoiceSpeakerButton_Desktop_Button_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1b42740
+	void BndEvt__WBP_VoiceSpeakerButton_Desktop_Button_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature(); // Function WBP_VoiceSpeakerButton_Icon_Desktop.WBP_VoiceSpeakerButton_Icon_Desktop_C.BndEvt__WBP_VoiceSpeakerButton_Desktop_Button_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1b42740
+	void BndEvt__WBP_VoiceSpeakerButton_Desktop_Button_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature(); // Function WBP_VoiceSpeakerButton_Icon_Desktop.WBP_VoiceSpeakerButton_Icon_Desktop_C.BndEvt__WBP_VoiceSpeakerButton_Desktop_Button_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1b42740
+	void ExecuteUbergraph_WBP_VoiceSpeakerButton_Icon_Desktop(int32_t EntryPoint); // Function WBP_VoiceSpeakerButton_Icon_Desktop.WBP_VoiceSpeakerButton_Icon_Desktop_C.ExecuteUbergraph_WBP_VoiceSpeakerButton_Icon_Desktop // (Final|UbergraphFunction) // @ game+0x1b42740
+};
+

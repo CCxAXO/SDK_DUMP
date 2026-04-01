@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass RaveDance_PrimaryAsset.RaveDance_PrimaryAsset_C
+// Size: 0xd8 (Inherited: 0xd8)
+struct URaveDance_PrimaryAsset_C : USprayDataAsset {
+};
+

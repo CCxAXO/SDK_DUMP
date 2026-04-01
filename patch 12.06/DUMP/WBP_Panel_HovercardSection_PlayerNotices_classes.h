@@ -1,0 +1,12 @@
+// WidgetBlueprintGeneratedClass WBP_Panel_HovercardSection_PlayerNotices.WBP_Panel_HovercardSection_PlayerNotices_C
+// Size: 0x3f0 (Inherited: 0x3e0)
+struct UWBP_Panel_HovercardSection_PlayerNotices_C : UWBP_Panel_HovercardSection_SocialPanelPlayer_Base_C {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x3e0(0x08)
+	struct UWBP_Panel_HovercardRow_PlatformMismatch_C* WBP_Panel_HovercardRow_PlatformMismatch; // 0x3e8(0x08)
+
+	void SetObservedPlayer(struct FString InPlayerSubject); // Function WBP_Panel_HovercardSection_PlayerNotices.WBP_Panel_HovercardSection_PlayerNotices_C.SetObservedPlayer // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1b42740
+	void UpdateVisibility(); // Function WBP_Panel_HovercardSection_PlayerNotices.WBP_Panel_HovercardSection_PlayerNotices_C.UpdateVisibility // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1b42740
+	void BndEvt__WBP_Panel_HovercardSection_PlayerNotices_WBP_Panel_HovercardRow_PlatformMismatch_K2Node_ComponentBoundEvent_0_OnVisibilityChangedEvent__DelegateSignature(enum class ESlateVisibility InVisibility); // Function WBP_Panel_HovercardSection_PlayerNotices.WBP_Panel_HovercardSection_PlayerNotices_C.BndEvt__WBP_Panel_HovercardSection_PlayerNotices_WBP_Panel_HovercardRow_PlatformMismatch_K2Node_ComponentBoundEvent_0_OnVisibilityChangedEvent__DelegateSignature // (BlueprintEvent) // @ game+0x1b42740
+	void ExecuteUbergraph_WBP_Panel_HovercardSection_PlayerNotices(int32_t EntryPoint); // Function WBP_Panel_HovercardSection_PlayerNotices.WBP_Panel_HovercardSection_PlayerNotices_C.ExecuteUbergraph_WBP_Panel_HovercardSection_PlayerNotices // (Final|UbergraphFunction) // @ game+0x1b42740
+};
+
